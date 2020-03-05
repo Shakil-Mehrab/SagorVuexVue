@@ -1,0 +1,1 @@
+To Verify Email <a href="{{route('sentEmailVerifying',['email'=>$user->email,'verifyToken'=>$user->verifyToken])}}">Click Here</a>
